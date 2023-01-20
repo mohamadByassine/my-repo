@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: absolute;
+    width: 30em;
+    background-color: #29abec;
+    border-radius: 7px;
+    left: 50%;
+    top: auto;
+    transform: translate(-50%, 50%);
+}
+
+.form {
+    padding: 50px;
+}
+
+.form .title {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    position: relative;
+}
+
+.login-form {
+    width: 350px;
+}
+
+.input-field {
+    position: relative;
+    height: 20px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.input-field input {
+    height: 150%;
+    width: 100%;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 5px 5px 0 0 rgba(50, 50, 50, 0.2);
+    font-size: 15px;
+    position: absolute;
+}
+
+.login-btn {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-btn button {
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #323232;
+    height: 40px;
+    width: 30%;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 0 rgba(50, 50, 50, 0.2);
+    transition: all 0.4s ease;
+}
+
+.login-btn button:hover {
+    background-color: #2298d3;
+    color: white;
+    box-shadow: none;
+}
+
+.to-signup {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.to-signup .text {
+    color: white;
+}
+
+.to-signup a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.to-signup a:hover {
+    color:#186a93;
+}

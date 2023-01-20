@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="forms">
+        <div class="form">
+            <span class="title">Create your account!</span>
+            <form class="signup-form" [formGroup]="signupForm" (ngSubmit)="signUp()">
+                <div class="input-field">
+                    <input formControlName="email" type="email" placeholder="E-mail Address" class="emailaddress"
+                        required />
+                </div>
+                <div class="input-field">
+                    <input formControlName="english_name" type="text" placeholder="Full Name" class="fullname"
+                        required />
+                </div>
+                <div class="input-field">
+                    <input formControlName="arabic_name" type="text" placeholder="الاسم الثلاثي" class="arabicfullname"
+                        required />
+                </div>
+                <div class="input-field">
+                    <input formControlName="username" type="text" placeholder="Pick a username" class="username"
+                        required />
+                </div>
+                <div class="input-field">
+                    <input formControlName="password" type="password" placeholder="Password" class="pass" required />
+                </div>
+                <div class="radio-group" id="radio-group">
+                    <label for="radio-group" id="label1">Select your gender</label><br/>
+                    <input formControlName="gender" type="radio" name="gender" id="male" value="Male"/>
+                    <label for="male">Male</label><br/>
+                    <input formControlName="gender" type="radio" name="gender" id="female" value="Female"/>
+                    <label for="female">Female</label><br/>
+                </div>
+                <div class="signup-btn">
+                    <button type="submit" class="signupbtutton" onClick="signup()">Signup</button>
+                </div>
+            </form>
+            <div class="to-login">
+                <span class="text">Already have an account?
+                    <a routerLink="/login">Log In now!</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

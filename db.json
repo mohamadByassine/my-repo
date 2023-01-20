@@ -1,0 +1,28 @@
+{
+  "test": [
+    {
+      "id": 1,
+      "first_name": "Mohamad",
+      "last_name": "Yassine"
+    }
+  ],
+  "signup": [
+    {
+      "email": "test@gmail.com",
+      "english_name": "test account",
+      "arabic_name": "تجربة",
+      "username": "testxd",
+      "password": "test123",
+      "id": 1
+    },
+    {
+      "email": "test@email.com",
+      "english_name": "test",
+      "arabic_name": "test",
+      "username": "test",
+      "gender": "Male",
+      "password": "test",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: absolute;
+    width: 30em;
+    background-color: #29abec;
+    border-radius: 7px;
+    left: 50%;
+    top: 1%;
+    transform: translate(-50%, 10%);
+}
+
+.form {
+    padding: 50px;
+}
+
+.form .title {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    position: relative;
+}
+
+.signup-form {
+    width: 350px;
+}
+
+.input-field , .radio-group {
+    position: relative;
+    height: 20px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.radio-group label {
+    color: white;
+}
+
+.radio-group #label1 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.input-field input {
+    height: 150%;
+    width: 100%;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 5px 5px 0 0 rgba(50, 50, 50, 0.2);
+    font-size: 15px;
+    position: absolute;
+}
+
+.signup-btn {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.signup-btn button {
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #323232;
+    height: 40px;
+    width: 30%;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 0 rgba(50, 50, 50, 0.2);
+    transition: all 0.4s ease;
+}
+
+.signup-btn button:hover {
+    background-color: #2298d3;
+    color: white;
+    box-shadow: none;
+}
+
+.to-login {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.to-login .text {
+    color: white;
+}
+
+.to-login a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.to-login a:hover {
+    color: #186a93;
+}
